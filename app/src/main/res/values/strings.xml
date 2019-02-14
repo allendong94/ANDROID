@@ -1,0 +1,107 @@
+<resources>
+    <!--main activity-->
+    <string name="app_name">Place and Entertainment Search</string>
+    <string name="ma_tab_search">Search</string>
+    <string name="ma_tab_favorites">Favorites</string>
+
+    <!--main activity > search fragment-->
+    <string name="ma_sf_keyword">Keyword</string>
+    <string name="ma_sf_keyword_hint">Enter keyword</string>
+    <string name="ma_sf_category">Category</string>
+    <string name="ma_sf_distance">Distance (in miles)</string>
+    <string name="ma_sf_distance_hint">Enter distance (default 10 miles)</string>
+    <string name="ma_sf_from">From</string>
+    <string name="ma_sf_from_radio1">Current location</string>
+    <string name="ma_sf_from_radio2">Other. Specify location</string>
+    <string name="ma_sf_from_radio2_hint">Type in the location</string>
+    <string name="ma_sf_search">Search</string>
+    <string name="ma_sf_clear">Clear</string>
+
+    <string name="ma_sf_error_required">Please enter mandatory field</string>
+    <string name="fix_errors">Please fix all fields with errors</string>
+    
+    <!-- main activity > search fragment > category -->
+    <string-array name="category">
+        <item>Default</item>
+        <item>Airport</item>
+        <item>Amusement Park</item>
+        <item>Aquarium</item>
+        <item>Art Gallery</item>
+        <item>Bakery</item>
+        <item>Bar</item>
+        <item>Beauty Salon</item>
+        <item>Bowling Alley</item>
+        <item>Bus Station</item>
+        <item>Cafe</item>
+        <item>Campground</item>
+        <item>Car Rental</item>
+        <item>Casino</item>
+        <item>Lodging</item>
+        <item>Movie Theater</item>
+        <item>Museum</item>
+        <item>Night Club</item>
+        <item>Park</item>
+        <item>Parking</item>
+        <item>Restaurant</item>
+        <item>Shopping Mall</item>
+        <item>Stadium</item>
+        <item>Subway Station</item>
+        <item>Taxi Stand</item>
+        <item>Train Station</item>
+        <item>Transit Station</item>
+        <item>Travel Agency</item>
+        <item>Zoo</item>
+    </string-array>
+
+    <!-- main activity > favorites fragment -->
+    <string name="no_favorites">No favorites found.</string>
+
+    <!-- results activity -->
+    <string name="no_results">No results found.</string>
+
+    <!--details activity-->
+    <string name="da_tab_info">Info</string>
+    <string name="da_tab_photos">Photos</string>
+    <string name="da_tab_map">Map</string>
+    <string name="da_tab_reviews">Reviews</string>
+    
+    <string name="google_maps_key">AIzaSyD1lLYLgXAV3QT8diQ-J2P5Av0KyErEag8</string>
+
+    <!--details activity > photos fragment-->
+    <string name="no_photos">No photos found.</string>
+
+    <!--details activity > map fragment -->
+    <string name="da_mf_from_hint">Type in the location</string>
+
+
+    <!--details activity > map fragment > travel mode spinner-->
+
+    <string-array name="travel_mode">
+        <item>Driving</item>
+        <item>Walking</item>
+        <item>Bicycling</item>
+        <item>Transit</item>
+    </string-array>
+
+    <!--details activity > reviews fragment > review service spinner-->
+    <string name="no_reviews">No reviews found.</string>
+
+    <!--details activity > reviews fragment > review service spinner-->
+    <string-array name="review_service">
+        <item>Google Reviews</item>
+        <item>Yelp Reviews</item>
+    </string-array>
+
+    <!--details activity > reviews fragment > review sort order spinner-->
+    <string-array name="review_sort">
+        <item>Default Order</item>
+        <item>Rating (Highest First)</item>
+        <item>Rating (Lowest First)</item>
+        <item>Date (Newest First)</item>
+        <item>Date (Oldest First)</item>
+    </string-array>
+
+    <!-- shared preferences for favorites -->
+    <string name="fav_shared_pref_file">com.example.omijn.placeandentertainmentsearch.favorites_SPF</string>
+    <string name="fav_json">favoritePlaceResultsJSON</string>
+</resources>
